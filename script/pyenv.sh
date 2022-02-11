@@ -1,7 +1,6 @@
 #!/bin/sh
 
-brew install pyenv pre-commit
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+brew install pyenv
 {
     echo "export PYENV_ROOT=\"$HOME/.pyenv\""
     echo "export PATH=\"$PYENV_ROOT/bin:$PATH\""
@@ -18,5 +17,3 @@ pyenv local 3.9.10
     echo 3.8.12
     echo 3.7.12
 } > .python-version
-pyenv versions
-pre-commit install

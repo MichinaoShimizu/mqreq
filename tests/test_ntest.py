@@ -1,4 +1,4 @@
-from mqreq import __version__
+from ntest import __version__
 
 
 def test_version():
