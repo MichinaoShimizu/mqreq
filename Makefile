@@ -1,9 +1,5 @@
 #!/usr/bin/env make
 
-pyenv:
-	./script/pyenv.sh
-	source ~/.bash_profile
-
 install:
 	poetry install
 	poetry run pre-commit install
