@@ -1,7 +1,13 @@
 
 # CONTRIBUTING
 
-## poetry install
+## install poetry
+
+```bash
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+```
+
+## install
 
 ```bash
 make install
