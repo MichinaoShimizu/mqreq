@@ -2,37 +2,49 @@
 
 [![Python CI](https://github.com/MichinaoShimizu/boilerplate.poetry.py/actions/workflows/python-package.yml/badge.svg)](https://github.com/MichinaoShimizu/boilerplate.poetry.py/actions/workflows/python-package.yml)
 
-## install
+## Requirements
+
+- python >= 3.8
+
+## pip install
+
+```bash
+pip install -U git@github.com:MichinaoShimizu/boilerplate.poetry.py.git
+```
+
+## For contributor
+
+### poetry install
 
 ```bash
 make install
 ```
 
-## build
+### build
 
 ```bash
 make build
 ```
 
-## run
+### run
 
 ```bash
 make run
 ```
 
-## test
+### test
 
 ```bash
 make test
 ```
 
-## clean / uninstall
+### clean
 
 ```bash
 make clean
 ```
 
-## update
+### update
 
 ```bash
 make update
