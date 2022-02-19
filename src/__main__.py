@@ -1,4 +1,8 @@
-def main() -> int:
+import src
+
+
+def main() -> None:
+    print(src.__version__)
     exit(0)
 
 
