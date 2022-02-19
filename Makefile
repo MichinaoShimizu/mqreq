@@ -1,6 +1,7 @@
 #!/usr/bin/env make
 
 install:
+	pip install --upgrade pip
 	poetry install
 	poetry run pre-commit install
 
