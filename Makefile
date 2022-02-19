@@ -5,7 +5,7 @@ install:
 	poetry install
 	poetry run pre-commit install
 
-run: install
+run:
 	poetry run start
 
 build:
