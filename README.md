@@ -1,5 +1,7 @@
 # boilerplate.poetry.py
 
+[![Python CI](https://github.com/MichinaoShimizu/boilerplate.poetry.py/actions/workflows/python-package.yml/badge.svg)](https://github.com/MichinaoShimizu/boilerplate.poetry.py/actions/workflows/python-package.yml)
+
 ## pyenv install
 
 ```bash
