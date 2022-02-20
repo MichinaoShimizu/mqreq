@@ -12,4 +12,4 @@ RUN python -m pip install --upgrade pip
 COPY --from=builder /usr/src/app/requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
-CMD [ "python", "-m", "src"]
+CMD ["python", "-m", "src"]
