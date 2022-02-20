@@ -46,3 +46,15 @@ make clean
 ```bash
 make update
 ```
+
+## build docker image
+
+```bash
+make docker-build
+```
+
+## run docker container
+
+```bash
+make docker-run
+```

@@ -21,3 +21,9 @@ clean:
 update:
 	poetry self update
 	poetry update
+
+docker-build:
+	docker build --tag boilerplate .
+
+docker-run:
+	docker run -it boilerplate
