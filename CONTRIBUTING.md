@@ -1,6 +1,10 @@
 
 # CONTRIBUTING
 
+## pyenv setting
+
+see [scripts/pyenv.sh](scripts/pyenv.sh)
+
 ## install poetry
 
 ```bash
