@@ -3,7 +3,7 @@
 
 ## pyenv setting
 
-see [scripts/pyenv.sh](script/pyenv.sh)
+see [pyenv.sh](script/pyenv.sh)
 
 ## install poetry
 
