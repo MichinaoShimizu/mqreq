@@ -9,7 +9,7 @@
 ## pip install
 
 ```bash
-pip install -U git@github.com:$(REPOSITORY_NAME).git
+pip install -U git+ssh://git@github.com/$(REPOSITORY_NAME).git
 ```
 
 ## Contributing
