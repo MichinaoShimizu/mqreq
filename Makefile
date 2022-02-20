@@ -1,5 +1,7 @@
 #!/usr/bin/env make
 
+IMAGE=boilerplate
+
 install:
 	pip install --upgrade pip
 	poetry install
@@ -15,15 +17,15 @@ test:
 	poetry run tox
 
 clean:
-	@find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
-	@-rm -R dist .tox .mypy_cacche .coverage .venv poetry.lock
+	find ./src | grep -E "(__pycache__|\.pyc|\.pyo$$)" | xargs rm -rf
+	-rm -R dist .tox .mypy_cacche .coverage .venv poetry.lock
 
 update:
 	poetry self update
 	poetry update
 
 docker-build:
-	docker build --tag boilerplate .
+	docker build --tag $(IMAGE) .
 
 docker-run:
-	docker run -it boilerplate
+	docker run -it $(IMAGE)

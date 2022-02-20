@@ -16,7 +16,7 @@ packages = [
 include = [
     "poetry.lock",
     "tox.ini",
-    "tests"
+    "tests",
 ]
 
 [tool.poetry.dependencies]
