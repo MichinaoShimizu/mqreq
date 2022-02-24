@@ -1,10 +1,17 @@
 {
+  "[python]": {
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
   "autoDocstring.docstringFormat": "numpy",
   "autoDocstring.includeExtendedSummary": true,
   "autoDocstring.includeName": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "python.formatting.provider": "black",

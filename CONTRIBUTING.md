@@ -3,13 +3,11 @@
 
 ## pyenv setting
 
-see [pyenv.sh](script/pyenv.sh)
+see [pyenv.sh](https://gist.github.com/MichinaoShimizu/b9cc39c5c9ef5b15c4992c47b32cad57)
 
 ## install poetry
 
-```bash
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-```
+see [poetry](https://python-poetry.org/docs/)
 
 ## install
 
@@ -45,16 +43,4 @@ make clean
 
 ```bash
 make update
-```
-
-## build docker image
-
-```bash
-make docker-build
-```
-
-## run docker container
-
-```bash
-make docker-run
 ```
