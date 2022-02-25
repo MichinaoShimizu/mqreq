@@ -1,0 +1,22 @@
+✨ source:
+- src/**/*.py
+
+🚨 test:
+- tests/**/*.py
+
+🔧 config:
+- .pre-commit-config.yaml
+- poetry.toml
+- pyproject.toml
+- poetry.lock
+- .github
+- .vscode
+- Makefile
+- tox.ini
+
+👷 ci:
+  - '.github/*.yml'
+  - '.github/workflows/**/*'
+
+📚 docs:
+- any: ['**/*.md']
