@@ -1,22 +1,29 @@
 ✨ source:
 - src/**/*.py
 
-🚨 test:
+🚓 test:
 - tests/**/*.py
 
 🔧 config:
-- .pre-commit-config.yaml
-- poetry.toml
-- pyproject.toml
-- poetry.lock
-- .github
-- .vscode
+- "**/*.yaml"
+- "**/*.yml"
+- "**/*.toml"
+- "**/*.lock"
+- "**/*.ini"
+- "**/*.json"
+- .gitignore
+
+🐳 docker:
+- Dockerfile
+- docker-compose.yml
+- .dockerignore
+
+🔨 make:
 - Makefile
-- tox.ini
 
 👷 ci:
-  - '.github/*.yml'
-  - '.github/workflows/**/*'
+- .github/*.yml
+- .github/workflows/**/*
 
 📚 docs:
-- any: ['**/*.md']
+- "**/*.md"
