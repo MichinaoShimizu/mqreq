@@ -32,12 +32,12 @@ clean:
 
 .PHONY: update
 update:
-	python -m pip install --upgrade pip
+	python3 -m pip install --upgrade pip
 	poetry self update
 	poetry update
 
 .PHONY: version
 version:
-	python -V
+	python3 -V
 	poetry run python -V
 	poetry version
